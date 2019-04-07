@@ -8,5 +8,10 @@
 </head>
 <body>
    <h1>Something Crazy</h1>
+   <mat-paginator [length]="length"
+      [pageSize]="pageSize"
+      [pageSizeOptions]="pageSizeOptions"
+      (page)="pageEvent = $event">Don't know really what it is
+   </mat-paginator>
 </body>
 </html>
